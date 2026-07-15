@@ -1,0 +1,34 @@
+{
+  "lang": "de",
+  "name": "Deutsch",
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "updated": "Zuletzt aktualisiert: 15. Juli 2026",
+    "intro": "Warranta ist ein datenschutzorientierter Tresor für Ihre Kassenbons, Garantien und Rückgabefristen. Die App ist so konzipiert, dass alles, was Sie hinzufügen, auf Ihrem Gerät bleibt. Diese Erklärung erläutert, was das in der Praxis bedeutet.",
+    "sections": [
+      { "h": "Daten, die wir erheben", "p": "Keine. Warranta erfordert kein Konto und erhebt, überträgt, verkauft oder teilt Ihre personenbezogenen Daten nicht. Ihre Artikel, Fotos, Dokumente, Preise und Notizen verlassen Ihr Gerät niemals, außer in Ihrem eigenen Geräte-Backup (siehe „Speicherung & Backup“)." },
+      { "h": "Verarbeitung auf dem Gerät", "p": "Wenn Sie einen Kassenbon oder eine Garantie scannen, wird der Text mithilfe von Apples geräteinterner Vision-Technologie und geräteinterner Intelligenz gelesen und die Felder werden ausgefüllt. Das Bild und sein Text werden vollständig auf Ihrem iPhone verarbeitet und niemals an uns oder Dritte übertragen." },
+      { "h": "Netzwerknutzung", "p": "Die einzige Netzwerkaktivität erfolgt mit dem App Store von Apple für Käufe und Abonnements. Wenn Sie Warranta Pro erwerben, kann eine optionale Registrierung eine einzige anonyme Apple-Transaktionskennung senden, damit Ihr Abonnement erkannt werden kann – sie enthält keinen Namen, keine E-Mail-Adresse und keine Artikelinhalte. Warranta enthält keinerlei Analyse-, Werbe- oder Tracking-SDKs." },
+      { "h": "Berechtigungen", "p": "Warranta kann um Zugriff auf die Kamera (zum Fotografieren eines Kassenbons oder einer Garantie), die Fotomediathek (zur Auswahl eines vorhandenen Bildes) und Mitteilungen (um Sie vor Ablauf einer Garantie- oder Rückgabefrist zu erinnern) bitten. Jede Berechtigung ist optional und wird ausschließlich für den angegebenen Zweck verwendet." },
+      { "h": "Speicherung & Backup", "p": "Ihre Daten werden lokal auf Ihrem Gerät gespeichert. Wenn Sie das iCloud-Geräte-Backup aktiviert haben, sind sie in diesem verschlüsselten Backup unter Ihrem Apple-Konto enthalten. Wir betreiben keine Server, die Ihre Inhalte speichern." },
+      { "h": "Datenschutz für Kinder", "p": "Warranta richtet sich nicht an Kinder unter 13 Jahren und erhebt von niemandem personenbezogene Daten, auch nicht von Kindern." },
+      { "h": "Änderungen dieser Erklärung", "p": "Wir können diese Erklärung von Zeit zu Zeit aktualisieren. Wesentliche Änderungen werden auf dieser Seite mit einem neuen Datum der letzten Aktualisierung veröffentlicht." },
+      { "h": "Kontakt", "p": "Fragen zum Datenschutz? Schreiben Sie an mustafaagulden@gmail.com." }
+    ]
+  },
+  "terms": {
+    "title": "Nutzungsbedingungen",
+    "updated": "Zuletzt aktualisiert: 15. Juli 2026",
+    "intro": "Diese Bedingungen regeln Ihre Nutzung der Warranta-App. Durch die Nutzung von Warranta erklären Sie sich mit ihnen einverstanden.",
+    "sections": [
+      { "h": "Der Dienst", "p": "Warranta hilft Ihnen, Kaufnachweise zu speichern und Garantie- sowie Rückgabefristen im Blick zu behalten. Es handelt sich ausschließlich um ein Organisationswerkzeug: Es gewährt, verlängert, versichert oder erfüllt keine Garantie, und seine Erinnerungen werden nach bestem Bemühen bereitgestellt. Bestätigen Sie wichtige Termine und Bedingungen stets beim Verkäufer oder Hersteller." },
+      { "h": "Lizenz", "p": "Wir gewähren Ihnen eine persönliche, nicht ausschließliche, nicht übertragbare und widerrufliche Lizenz zur Nutzung von Warranta für Ihre eigenen persönlichen, nicht kommerziellen Zwecke, vorbehaltlich dieser Bedingungen und der Nutzungsbedingungen des App Store." },
+      { "h": "Abonnements & Käufe", "p": "Warranta Pro wird als automatisch verlängerbares Abonnement und, sofern verfügbar, als einmaliger Kauf angeboten, die alle über den App Store abgewickelt werden. Die Zahlung wird Ihrer Apple-ID belastet. Abonnements verlängern sich automatisch, sofern sie nicht mindestens 24 Stunden vor Ablauf des aktuellen Zeitraums gekündigt werden. Eine kostenlose Testphase geht in ein kostenpflichtiges Abonnement über, sofern sie nicht vor ihrem Ende gekündigt wird. Sie können Ihr Abonnement in den Einstellungen Ihres App-Store-Kontos verwalten oder kündigen. Die Preise können je nach Region variieren und werden vor dem Kauf angezeigt." },
+      { "h": "Gewährleistungsausschluss", "p": "Warranta wird „wie besehen“ und „wie verfügbar“ bereitgestellt, ohne jegliche Gewährleistung. Wir garantieren nicht, dass Erinnerungen pünktlich zugestellt werden, dass gescannte Daten korrekt sind oder dass die App unterbrechungs- oder fehlerfrei funktioniert." },
+      { "h": "Haftungsbeschränkung", "p": "Soweit gesetzlich zulässig, haften wir nicht für versäumte Garantie- oder Rückgabefristen, Datenverluste oder mittelbare, beiläufige oder Folgeschäden, die sich aus Ihrer Nutzung von Warranta ergeben. Nichts in diesen Bedingungen beschränkt Rechte, die nach dem zwingenden Verbraucherrecht Ihres Landes nicht beschränkt werden können." },
+      { "h": "Geistiges Eigentum", "p": "Warranta, sein Design und seine Inhalte sind Eigentum des Entwicklers und durch geltendes Recht geschützt. Ihre eigenen Artikel und Dokumente bleiben Ihr Eigentum." },
+      { "h": "Änderungen dieser Bedingungen", "p": "Wir können diese Bedingungen von Zeit zu Zeit aktualisieren. Die fortgesetzte Nutzung von Warranta nach Inkrafttreten von Änderungen bedeutet, dass Sie die aktualisierten Bedingungen akzeptieren." },
+      { "h": "Kontakt", "p": "Fragen zu diesen Bedingungen? Schreiben Sie an mustafaagulden@gmail.com." }
+    ]
+  }
+}

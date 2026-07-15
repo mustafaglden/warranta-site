@@ -1,0 +1,34 @@
+{
+  "lang": "en",
+  "name": "English",
+  "privacy": {
+    "title": "Privacy Policy",
+    "updated": "Last updated: 15 July 2026",
+    "intro": "Warranta is a privacy-first vault for your receipts, warranties and return windows. It is built so that everything you add stays on your device. This policy explains what that means in practice.",
+    "sections": [
+      { "h": "Data we collect", "p": "None. Warranta requires no account and does not collect, transmit, sell, or share your personal data. Your items, photos, documents, prices and notes never leave your device except in your own device backup (see “Storage & backup”)." },
+      { "h": "On-device processing", "p": "When you scan a receipt or warranty, the text is read and the fields are filled in using Apple’s on-device Vision and on-device intelligence. The image and its text are processed entirely on your iPhone and are never uploaded to us or any third party." },
+      { "h": "Network use", "p": "The only network activity is with Apple’s App Store for purchases and subscriptions. If you buy Warranta Pro, an optional registration may send a single anonymous Apple transaction identifier so your subscription can be recognised — it contains no name, email, or item content. Warranta includes no analytics, advertising, or tracking SDKs of any kind." },
+      { "h": "Permissions", "p": "Warranta may ask for Camera (to photograph a receipt or warranty), Photo Library (to pick an existing image), and Notifications (to remind you before a warranty or return window expires). Each is optional and used only for the stated purpose." },
+      { "h": "Storage & backup", "p": "Your data is stored locally on your device. If you have iCloud device backup enabled, it is included in that encrypted backup under your Apple account. We operate no servers that hold your content." },
+      { "h": "Children’s privacy", "p": "Warranta is not directed at children under 13 and collects no personal data from anyone, including children." },
+      { "h": "Changes to this policy", "p": "We may update this policy from time to time. Material changes will be posted on this page with a new “last updated” date." },
+      { "h": "Contact", "p": "Questions about privacy? Email mustafaagulden@gmail.com." }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "updated": "Last updated: 15 July 2026",
+    "intro": "These terms govern your use of the Warranta app. By using Warranta, you agree to them.",
+    "sections": [
+      { "h": "The service", "p": "Warranta helps you store proof of purchase and keep track of warranty and return windows. It is an organisational tool only: it does not provide, extend, underwrite, or honour any warranty, and its reminders are provided on a best-effort basis. Always confirm important dates and terms with the seller or manufacturer." },
+      { "h": "Licence", "p": "We grant you a personal, non-exclusive, non-transferable, revocable licence to use Warranta for your own personal, non-commercial purposes, subject to these terms and the App Store Terms of Service." },
+      { "h": "Subscriptions & purchases", "p": "Warranta Pro is offered as auto-renewing subscriptions and, where available, a one-time purchase, all processed by the App Store. Payment is charged to your Apple ID. Subscriptions renew automatically unless cancelled at least 24 hours before the end of the current period. Any free trial converts to a paid subscription unless cancelled before it ends. You can manage or cancel in your App Store account settings. Prices may vary by region and are shown before purchase." },
+      { "h": "Disclaimer of warranties", "p": "Warranta is provided “as is” and “as available”, without warranties of any kind. We do not guarantee that reminders will be delivered on time, that scanned data will be accurate, or that the app will be uninterrupted or error-free." },
+      { "h": "Limitation of liability", "p": "To the maximum extent permitted by law, we are not liable for any missed warranty or return deadline, lost data, or indirect, incidental or consequential damages arising from your use of Warranta. Nothing in these terms limits rights that cannot be limited under the mandatory consumer law of your country." },
+      { "h": "Intellectual property", "p": "Warranta, its design, and its content are owned by the developer and protected by applicable law. Your own items and documents remain yours." },
+      { "h": "Changes to these terms", "p": "We may update these terms from time to time. Continued use of Warranta after changes take effect means you accept the updated terms." },
+      { "h": "Contact", "p": "Questions about these terms? Email mustafaagulden@gmail.com." }
+    ]
+  }
+}

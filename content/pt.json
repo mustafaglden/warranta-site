@@ -1,0 +1,34 @@
+{
+  "lang": "pt",
+  "name": "Português",
+  "privacy": {
+    "title": "Política de Privacidade",
+    "updated": "Última atualização: 15 de julho de 2026",
+    "intro": "A Warranta é um cofre orientado para a privacidade para os seus recibos, garantias e prazos de devolução. Foi criada para que tudo o que adiciona permaneça no seu dispositivo. Esta política explica o que isso significa na prática.",
+    "sections": [
+      { "h": "Dados que recolhemos", "p": "Nenhuns. A Warranta não exige qualquer conta e não recolhe, transmite, vende nem partilha os seus dados pessoais. Os seus artigos, fotografias, documentos, preços e notas nunca saem do seu dispositivo, exceto na cópia de segurança do próprio dispositivo (consulte “Armazenamento e cópia de segurança”)." },
+      { "h": "Processamento no dispositivo", "p": "Quando digitaliza um recibo ou uma garantia, o texto é lido e os campos são preenchidos utilizando as tecnologias Vision e de inteligência no dispositivo da Apple. A imagem e o respetivo texto são processados inteiramente no seu iPhone e nunca são carregados para nós nem para terceiros." },
+      { "h": "Utilização da rede", "p": "A única atividade de rede ocorre com a App Store da Apple para compras e subscrições. Se comprar a Warranta Pro, um registo opcional pode enviar um único identificador anónimo da transação Apple para que a sua subscrição possa ser reconhecida — não contém nome, e-mail nem conteúdo de artigos. A Warranta não inclui quaisquer SDK de análise, publicidade ou rastreio de qualquer tipo." },
+      { "h": "Permissões", "p": "A Warranta pode solicitar acesso à Câmara (para fotografar um recibo ou uma garantia), à Biblioteca de Fotografias (para escolher uma imagem existente) e às Notificações (para o lembrar antes de expirar uma garantia ou um prazo de devolução). Cada uma é opcional e utilizada apenas para o fim indicado." },
+      { "h": "Armazenamento e cópia de segurança", "p": "Os seus dados são armazenados localmente no seu dispositivo. Se tiver a cópia de segurança do dispositivo no iCloud ativada, estes são incluídos nessa cópia de segurança encriptada associada à sua conta Apple. Não operamos quaisquer servidores que guardem os seus conteúdos." },
+      { "h": "Privacidade das crianças", "p": "A Warranta não se destina a crianças com menos de 13 anos e não recolhe dados pessoais de ninguém, incluindo crianças." },
+      { "h": "Alterações a esta política", "p": "Poderemos atualizar esta política periodicamente. As alterações substanciais serão publicadas nesta página com uma nova data de “última atualização”." },
+      { "h": "Contacto", "p": "Dúvidas sobre privacidade? Envie um e-mail para mustafaagulden@gmail.com." }
+    ]
+  },
+  "terms": {
+    "title": "Termos de Serviço",
+    "updated": "Última atualização: 15 de julho de 2026",
+    "intro": "Estes termos regem a utilização da aplicação Warranta. Ao utilizar a Warranta, o utilizador aceita-os.",
+    "sections": [
+      { "h": "O serviço", "p": "A Warranta ajuda-o a guardar comprovativos de compra e a acompanhar garantias e prazos de devolução. É apenas uma ferramenta de organização: não fornece, prolonga, subscreve nem honra qualquer garantia, e os seus lembretes são disponibilizados na medida do possível. Confirme sempre as datas e condições importantes junto do vendedor ou fabricante." },
+      { "h": "Licença", "p": "Concedemos-lhe uma licença pessoal, não exclusiva, intransmissível e revogável para utilizar a Warranta para os seus próprios fins pessoais e não comerciais, sujeita a estes termos e aos Termos de Serviço da App Store." },
+      { "h": "Subscrições e compras", "p": "A Warranta Pro é oferecida sob a forma de subscrições de renovação automática e, quando disponível, de uma compra única, tudo processado pela App Store. O pagamento é cobrado ao seu ID Apple. As subscrições renovam-se automaticamente, salvo cancelamento com, pelo menos, 24 horas de antecedência relativamente ao fim do período em curso. Qualquer período de teste gratuito converte-se numa subscrição paga, salvo cancelamento antes do seu termo. Pode gerir ou cancelar nas definições da sua conta da App Store. Os preços podem variar consoante a região e são apresentados antes da compra." },
+      { "h": "Exclusão de garantias", "p": "A Warranta é fornecida “tal como está” e “conforme disponível”, sem garantias de qualquer tipo. Não garantimos que os lembretes sejam entregues a tempo, que os dados digitalizados sejam precisos, nem que a aplicação seja ininterrupta ou isenta de erros." },
+      { "h": "Limitação de responsabilidade", "p": "Na máxima medida permitida por lei, não somos responsáveis por qualquer prazo de garantia ou de devolução não cumprido, perda de dados, ou danos indiretos, incidentais ou consequenciais decorrentes da utilização da Warranta. Nada nestes termos limita direitos que não possam ser limitados ao abrigo da legislação imperativa de defesa do consumidor do seu país." },
+      { "h": "Propriedade intelectual", "p": "A Warranta, o seu design e os seus conteúdos são propriedade do programador e estão protegidos pela legislação aplicável. Os seus próprios artigos e documentos continuam a ser seus." },
+      { "h": "Alterações a estes termos", "p": "Poderemos atualizar estes termos periodicamente. A utilização continuada da Warranta após a entrada em vigor das alterações significa que aceita os termos atualizados." },
+      { "h": "Contacto", "p": "Dúvidas sobre estes termos? Envie um e-mail para mustafaagulden@gmail.com." }
+    ]
+  }
+}

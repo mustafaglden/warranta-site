@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Warranta — Privacy Policy</title>
+<meta name="robots" content="index, follow">
+<style>
+  :root { --bg:#0E0F1B; --card:#171827; --border:#262838; --text:#F4F5FA; --muted:#9BA0B4; --gold:#FFD64D; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif; background:var(--bg); color:var(--text); line-height:1.65; -webkit-font-smoothing:antialiased; }
+  .wrap { max-width:760px; margin:0 auto; padding:32px 20px 80px; }
+  header { display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; margin-bottom:28px; }
+  .brand { display:flex; align-items:center; gap:10px; font-weight:800; font-size:1.25rem; letter-spacing:-.02em; }
+  .brand .dot { width:26px; height:26px; border-radius:8px; background:linear-gradient(135deg,var(--gold),#E0A62A); display:inline-block; }
+  select { background:var(--card); color:var(--text); border:1px solid var(--border); border-radius:10px; padding:9px 12px; font-size:.95rem; cursor:pointer; }
+  h1 { font-size:2rem; letter-spacing:-.02em; margin-bottom:6px; }
+  .updated { color:var(--muted); font-size:.9rem; margin-bottom:24px; }
+  .intro { color:var(--text); font-size:1.05rem; background:var(--card); border:1px solid var(--border); border-radius:14px; padding:18px 20px; margin-bottom:28px; }
+  section { margin-bottom:22px; }
+  section h2 { font-size:1.15rem; margin-bottom:6px; color:var(--gold); letter-spacing:-.01em; }
+  section p { color:#D7DAE6; }
+  footer { margin-top:48px; padding-top:24px; border-top:1px solid var(--border); color:var(--muted); font-size:.9rem; }
+  footer a { color:var(--gold); text-decoration:none; }
+  footer a:hover { text-decoration:underline; }
+  .nav { display:flex; gap:18px; margin-bottom:14px; }
+  .note { margin-top:14px; font-size:.82rem; color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand"><span class="dot"></span> Warranta</div>
+    <select id="lang" aria-label="Language"></select>
+  </header>
+  <main id="doc"></main>
+  <footer>
+    <div class="nav">
+      <a href="./privacy.html">Privacy Policy</a>
+      <a href="./terms.html">Terms of Service</a>
+    </div>
+    <div id="contact"></div>
+    <div class="note" id="disclaimer"></div>
+  </footer>
+</div>
+
+<script src="./content.js"></script>
+<script>
+(function () {
+  var DOC = "privacy";
+  var L = window.WARRANTA_LEGAL || {};
+  var codes = ["en","de","fr","es","it","pt","nl","ja","ko","zh"];
+
+  function pick() {
+    var u = new URLSearchParams(location.search).get("lang");
+    if (u && L[u]) return u;
+    var s = localStorage.getItem("warranta_lang");
+    if (s && L[s]) return s;
+    var n = (navigator.language || "en").slice(0, 2).toLowerCase();
+    return L[n] ? n : "en";
+  }
+
+  var sel = document.getElementById("lang");
+  codes.forEach(function (c) {
+    if (!L[c]) return;
+    var o = document.createElement("option");
+    o.value = c; o.textContent = L[c].name;
+    sel.appendChild(o);
+  });
+
+  function render(code) {
+    var d = L[code] && L[code][DOC];
+    if (!d) { code = "en"; d = L.en[DOC]; }
+    document.documentElement.lang = code;
+    sel.value = code;
+    var html = '<h1>' + d.title + '</h1>'
+      + '<div class="updated">' + d.updated + '</div>'
+      + '<div class="intro">' + d.intro + '</div>';
+    d.sections.forEach(function (s) {
+      html += '<section><h2>' + s.h + '</h2><p>' + s.p + '</p></section>';
+    });
+    document.getElementById("doc").innerHTML = html;
+    var contact = d.sections[d.sections.length - 1];
+    document.getElementById("contact").innerHTML =
+      '© 2026 Warranta · <a href="mailto:mustafaagulden@gmail.com">mustafaagulden@gmail.com</a>';
+    document.getElementById("disclaimer").textContent =
+      "Translations are provided for convenience; the English version is authoritative.";
+  }
+
+  sel.addEventListener("change", function () {
+    localStorage.setItem("warranta_lang", sel.value);
+    render(sel.value);
+  });
+
+  render(pick());
+})();
+</script>
+</body>
+</html>
